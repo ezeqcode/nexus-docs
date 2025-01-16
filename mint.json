@@ -24,11 +24,20 @@
       "to": "#1a56db"
     }
   },
-  "topbarLinks": [],
-  "tabs": [
+  "topbarLinks": [
     {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "/api-reference"
+    }
+  ],
+  "tabs": [
+    {
+      "name": "Documentação",
+      "url": "/guia/comece-aqui"
+    },
+    {
+      "name": "API Reference",
+      "url": "/api-reference"
     }
   ],
   "anchors": [],
@@ -46,13 +55,13 @@
       "group": "Informações Básicas",
       "pages": [
         "api-reference/endpoint/customers/customers-test.mdx"
-        
       ]
     },
     {
       "group": "Clientes",
-      "pages": ["api-reference/endpoint/customers/customers-test.mdx"]
+      "pages": [
+        "api-reference/endpoint/customers/customers-test.mdx"
+      ]
     }
   ]
-  
 }
