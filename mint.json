@@ -56,11 +56,11 @@
       "pages": ["api-reference/endpoint/customers/customers-test.mdx"]
     },
     {
-      "group": "Gerar Teste",
+      "group": "Cliente - Gerar Teste",
       "pages": ["api-reference/endpoint/customers/customers-test"]
     },
     {
-      "group": "Ativar Teste",
+      "group": "Cliente - Ativar Teste",
       "pages": ["api-reference/endpoint/customers/customers"]
     }
   ]
