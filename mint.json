@@ -59,6 +59,14 @@
         "api-reference/endpoint/customers/delete-client",
         "api-reference/endpoint/customers/edit-client"
       ]
+    },
+    {
+      "group": "Revendedores",
+      "pages": [
+        "api-reference/endpoint/reseller/create-reseller",
+        "api-reference/endpoint/reseller/update-reseller",
+        "api-reference/endpoint/reseller/delete-reseller"
+      ]
     }
     
   ]
