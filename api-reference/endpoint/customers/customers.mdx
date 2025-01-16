@@ -23,11 +23,11 @@ Esse endpoint converte um cliente de teste em um cliente ativo, definindo o per�
 
 ### Parâmetros do corpo da requisição (Payload)
 
-<ParamField body="username" type="string" placeholder="1230921" required>
+<ParamField body="username" type="string" placeholder="123456" required>
   Nome de usuário do cliente a ser ativado.
 </ParamField>
 
-<ParamField body="password" type="string" placeholder="7241558" required>
+<ParamField body="password" type="string" placeholder="123456" required>
   Senha do cliente.
 </ParamField>
 
@@ -64,8 +64,8 @@ Headers:
 }
 Payload:
 {
-  "username": "1230921",
-  "password": "7241558",
+  "username": "123456",
+  "password": "123456",
   "credits": 1,
   "whatsapp": "(12) 3 1231-2312",
   "country": "Brasil",
@@ -135,8 +135,8 @@ Conteúdo da resposta.
 ```json
 {
   "id": 505,
-  "username": "1230921",
-  "password": "7241558",
+  "username": "123456",
+  "password": "123456",
   "owner": 80,
   "expDate": "2025-02-15T14:27:08.832Z",
   "notes": "Ativação oficial",
