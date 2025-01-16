@@ -52,14 +52,12 @@
       ]
     },
     {
-      "group": "Informações Básicas",
-      "pages": ["api-reference/endpoint/customers/customers-test.mdx"]
-    },
-    {
       "group": "Clientes",
       "pages": [
-        "api-reference/endpoint/customers/customers-test",
-        "api-reference/endpoint/customers/customers"
+        "api-reference/endpoint/customers/generate-test",
+        "api-reference/endpoint/customers/active-test",
+        "api-reference/endpoint/customers/delete-client",
+        "api-reference/endpoint/customers/edit-client"
       ]
     }
     
