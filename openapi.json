@@ -1,0 +1,67 @@
+{
+  "openapi": "3.0.0",
+  "paths": {
+    
+    "/ocr/cnh": {
+      "post": {
+        "operationId": "OcrCnhController_processCnh",
+        "summary": "OCR CNH",
+        "parameters": [],
+        "responses": {
+          "201": {
+            "description": "Sucesso"
+          },
+          "401": {
+            "description": "App-token não foi informada"
+          },
+          "400":{
+             "description": "Nenhum dado encontrado."
+          },
+          "500":{
+            "description": "Erro interno"
+          }
+        },
+        "tags": [
+          "ocr"
+        ]
+      }
+    }
+    
+  },
+  "info": {
+    "title": "",
+    "description": "Descrição da API",
+    "version": "1.0",
+    "contact": {}
+  },
+  "tags": [],
+  "servers": [],
+  "components": {
+    "schemas": {
+      "LoginDto": {
+        "type": "object",
+        "properties": {}
+      },
+      "CreateUserDto": {
+        "type": "object",
+        "properties": {}
+      },
+      "UpdateUserDto": {
+        "type": "object",
+        "properties": {}
+      },
+      "UpdateEmailVerificationDto": {
+        "type": "object",
+        "properties": {}
+      },
+      "CreateApiKeyDto": {
+        "type": "object",
+        "properties": {}
+      },
+      "Balance": {
+        "type": "object",
+        "properties": {}
+      }
+    }
+  }
+}
