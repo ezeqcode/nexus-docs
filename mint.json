@@ -64,6 +64,7 @@
       "group": "Revendedores",
       "pages": [
         "api-reference/endpoint/reseller/create-reseller",
+        "api-reference/endpoint/reseller/recharge-reseller",
         "api-reference/endpoint/reseller/update-reseller",
         "api-reference/endpoint/reseller/delete-reseller"
       ]
