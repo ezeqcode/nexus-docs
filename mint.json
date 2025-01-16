@@ -55,10 +55,6 @@
       "group": "Clientes",
       "pages": ["api-reference/endpoint/customers/customers-test.mdx"]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  ]
+  
 }
