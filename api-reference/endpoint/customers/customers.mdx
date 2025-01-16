@@ -1,7 +1,7 @@
 ---
 title: "Ativar Cliente"
 sidebarTitle: "/lines/active"
-api: "POST https://api.revenda.nexus/lines/active/:id-client"
+api: "PATCH https://api.revenda.nexus/lines/active/:id-client"
 authMethod: "authorization"
 description: "Este endpoint permite ativar um cliente de teste, tornando-o um usuário oficial na plataforma Nexus."
 ---
@@ -56,7 +56,7 @@ Esse endpoint converte um cliente de teste em um cliente ativo, definindo o per�
 ### Exemplo de Requisição
 
 ```json
-POST https://api.revenda.nexus/lines/active/505
+PATCH https://api.revenda.nexus/lines/active/505
 Headers:
 {
   "Authorization": "Bearer seu_token_aqui",
