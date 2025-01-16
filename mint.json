@@ -56,8 +56,8 @@
       "pages": [
         "api-reference/endpoint/customers/generate-test",
         "api-reference/endpoint/customers/active-test",
-        "api-reference/endpoint/customers/delete-client",
-        "api-reference/endpoint/customers/edit-client"
+        "api-reference/endpoint/customers/edit-client",
+        "api-reference/endpoint/customers/delete-client"
       ]
     },
     {

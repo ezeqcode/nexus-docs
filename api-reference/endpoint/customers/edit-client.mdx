@@ -29,20 +29,20 @@ Esse endpoint permite atualizar os dados de um cliente ativo, como nome de usuá
 
 ### Parâmetros do corpo da requisição (Payload)
 
-<ParamField body="username" type="string" placeholder="123456">
-  Novo nome de usuário do cliente. Campo opcional.
+<ParamField body="username" type="string" placeholder="123456" required>
+  Novo nome de usuário do cliente.
 </ParamField>
 
-<ParamField body="password" type="string" placeholder="123456">
-  Nova senha do cliente. Campo opcional.
+<ParamField body="password" type="string" placeholder="123456" required>
+  Nova senha do cliente. 
 </ParamField>
 
-<ParamField body="whatsapp" type="string" placeholder="(12) 3 1231-2312">
-  Número de WhatsApp do cliente. Campo opcional.
+<ParamField body="whatsapp" type="string" placeholder="(12) 3 1231-2312" required>
+  Número de WhatsApp do cliente. 
 </ParamField>
 
-<ParamField body="country" type="string" placeholder="Brasil">
-  País de origem do cliente. Campo opcional.
+<ParamField body="country" type="string" placeholder="Brasil" required>
+  País de origem do cliente. 
 </ParamField>
 
 <ParamField body="notes" type="string" placeholder="Observações">
