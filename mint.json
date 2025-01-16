@@ -53,15 +53,15 @@
     },
     {
       "group": "Informações Básicas",
-      "pages": [
-        "api-reference/endpoint/customers/customers-test.mdx"
-      ]
+      "pages": ["api-reference/endpoint/customers/customers-test.mdx"]
     },
     {
-      "group": "Clientes",
-      "pages": [
-        "api-reference/endpoint/customers/customers-test"
-      ]
+      "group": "Gerar Teste",
+      "pages": ["api-reference/endpoint/customers/customers-test"]
+    },
+    {
+      "group": "Ativar Teste",
+      "pages": ["api-reference/endpoint/customers/customers"]
     }
   ]
 }
