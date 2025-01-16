@@ -11,8 +11,8 @@
     }
   },
   "logo": {
-    "dark": "/assets/logos/logo-preto.png",
-    "light": "/assets/logos/logo-branco.png"
+    "light": "/assets/logos/logo-preto.png",
+    "dark": "/assets/logos/logo-branco.png"
   },
   "favicon": "/assets/favicon.png",
   "colors": {
