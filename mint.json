@@ -11,10 +11,10 @@
     }
   },
   "logo": {
-    "dark": "assets/logos/Nexus.svg",
-    "light": "assets/logos/Nexus.svg"
+    "dark": "",
+    "light": ""
   },
-  "favicon": "assets/favicon.ico",
+  "favicon": "",
   "colors": {
     "primary": "#1a56db",
     "light": "#1a56db",
