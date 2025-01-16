@@ -14,7 +14,7 @@
     "light": "/assets/logos/logo-preto.png",
     "dark": "/assets/logos/logo-branco.png"
   },
-  "favicon": "/assets/favicon.png",
+  "favicon": "/assets/favicon.svg",
   "colors": {
     "primary": "#1a56db",
     "light": "#1a56db",
