@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Documentação BitPix",
+  "name": "Documentação Nexus",
   "api": {
     "auth": {
       "method": "key",
@@ -11,8 +11,8 @@
     }
   },
   "logo": {
-    "dark": "assets/logos/BitPix.svg",
-    "light": "assets/logos/BitPix.svg"
+    "dark": "",
+    "light": ""
   },
   "favicon": "",
   "colors": {
@@ -26,18 +26,18 @@
   },
   "topbarLinks": [
     {
-      "name": "Suporte",
-      "url": "mailto:suporte@bitpix.com.br"
+      "name": "API Reference",
+      "url": "/api-reference"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Painel",
-    "url": "https://painel.bitpix.app"
-  },
   "tabs": [
     {
+      "name": "Documentação",
+      "url": "/guia/comece-aqui"
+    },
+    {
       "name": "API Reference",
-      "url": "api-reference"
+      "url": "/api-reference"
     }
   ],
   "anchors": [],
@@ -54,20 +54,14 @@
     {
       "group": "Informações Básicas",
       "pages": [
-        "api-reference/authentication",
-        "api-reference/limitations-and-restrictions",
-        "api-reference/ip-or-url-releases",
-        "api-reference/webhooks"
+        "api-reference/endpoint/customers/customers-test.mdx"
       ]
     },
     {
-      "group": "Vendas",
-      "pages": ["api-reference/endpoint/invoices/invoices"]
+      "group": "Clientes",
+      "pages": [
+        "api-reference/endpoint/customers/customers-test"
+      ]
     }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
-  }
+  ]
 }
