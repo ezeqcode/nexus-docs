@@ -52,6 +52,12 @@
       ]
     },
     {
+      "group": "Auth",
+      "pages": [
+        "api-reference/endpoint/auth/generate-token"
+      ]
+    },
+    {
       "group": "Clientes",
       "pages": [
         "api-reference/endpoint/customers/generate-test",
